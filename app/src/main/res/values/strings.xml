@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Application</string>
+    <string name="app_name">ScotMedic</string>
     <string name="welcome">Welcome!\nWhat would you like to do?</string>
     <string name="book_appointment">Book Appointment</string>
     <string name="track_medicine">Track Medicine</string>

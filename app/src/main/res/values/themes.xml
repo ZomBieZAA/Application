@@ -3,6 +3,10 @@
     <style name="Base.Theme.Application" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- App-wide dark grey background, with light status/nav bar icons so they stay visible -->
+        <item name="android:windowBackground">@color/dark_grey</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
     </style>
 
     <style name="Theme.Application" parent="Base.Theme.Application" />
