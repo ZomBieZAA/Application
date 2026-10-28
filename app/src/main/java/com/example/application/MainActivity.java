@@ -26,6 +26,15 @@ public class MainActivity extends AppCompatActivity {
         Button buttonBook = findViewById(R.id.buttonBook);
         Button buttonMedicine = findViewById(R.id.buttonMedicine);
         Button buttonCall = findViewById(R.id.buttonCall);
+        Button buttonSurgery = findViewById(R.id.buttonSurgery);
+
+        buttonSurgery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SurgeryActivity.class);
+                startActivity(intent);
+            }
+        });
 
         buttonBook.setOnClickListener(new View.OnClickListener() {
             @Override
