@@ -8,4 +8,6 @@
     <string name="available_times">Available Appointments</string>
     <string name="tap_to_book">Tap a time to book it</string>
     <string name="my_medicine">My Medicine Orders</string>
+    <string name="access_gps">Access GPS</string>
+    <string name="location_hint">Location will appear here</string>
 </resources>
