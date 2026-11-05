@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                 Address address = addresses.get(0);
                 String city = address.getLocality();
                 if (city == null || city.isEmpty()) {
-                    city = address.getSubAdminArea(); // Fallback for UK post towns if locality is null
+                    city = address.getSubAdminArea();
                 }
                 String postcode = address.getPostalCode();
 
